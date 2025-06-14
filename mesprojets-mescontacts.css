@@ -1,0 +1,177 @@
+#projets {
+    text-align: center;
+    margin: 32px 0;
+    background:#f7f8fa;
+}
+
+#projets h2 {
+    color: #00cfcf;
+    margin-bottom: 24px;
+}
+
+.projets-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.projet-card {
+    background: #f7f8fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 28px 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+
+.projet-card:hover {
+    box-shadow: 0 6px 24px rgba(0,207,207,0.12);
+}
+
+.projet-card p {
+    margin-bottom: 12px;
+    color: #222;
+    font-size: 1.08em;
+}
+
+.tags {
+    color: #888;
+    font-size: 0.95em;
+    margin-bottom: 18px;
+}
+
+.voir-btn {
+    background: #00cfcf;
+    color: #fff;
+    padding: 8px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+    display: inline-block;
+}
+
+.voir-btn:hover {
+    background: #009e9e;
+}
+
+/* Code de mescontact */
+#contact {
+    background: #77a6b6;         /* Couleur de fond claire pour la section contact */
+    padding: 32px 16px 40px 16px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 40px auto 0 auto;    /* Espace au-dessus du footer */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+/* Formulaire de contact */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: 24px auto 0 auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+#contactForm button {
+    background: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#contactForm button:hover {
+    background: #005f87;
+}
+
+/*Styles des info de contact*/
+
+#titrecontact { text-align: center; font-weight:bold; color: #0077b6;
+
+}
+.contactSections {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;   
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.contactArrang {
+   background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    min-width: 220px;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 1 1 0 ; 
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    HEIGHT: 100%;
+}
+.contact-icons img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: transform 0.5s;
+}
+
+.contact-icons img:hover {
+    transform: scale(2.1);
+}
+
+.contactArrang h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+.contactArrang a {
+    color: #00cfcf;
+    text-decoration: underline;
+}
+.contactArrang a:hover {
+    color: #0077b6;
+}
+button[type="submit"] {
+    background: #00cfcf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+button[type="submit"]:hover {
+    background: #0077b6;
+}

@@ -1,0 +1,205 @@
+.nom{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/*Code de Acceuil*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(90deg, #0077b6 60%, #48cae4 100%);
+    color: #fff;
+    padding: 36px 0 24px 0;
+    text-align: center;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header p {
+    margin-top: 12px;
+    font-size: 1.15em;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    
+}
+nav a {
+    background: #56c776;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.5s;
+}
+nav a:hover {
+    background: #d1ca4b;
+    border-radius: 4px;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+footer {
+    background: #242b3a;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+.footer-right a {
+    color: #e0e0e0;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.footer-right a:hover {
+    color: #00cfcf;
+}
+
+/*CODE DE A PROPOS */
+
+.cv {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.cv:hover {
+    background: #fe0101;
+}
+
+.contenu-apropos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f4f4f4;
+    padding: 30px 0;
+    background: #e8e9f1;
+    border-radius: 8px;
+    flex-direction:row-reverse;
+}
+
+.apropos-photo {           
+    height: 390px;
+    width: 460px;
+    object-fit: cover;
+    border-style: none; 
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+
+}
+
+.apropos-texte {
+    max-width: 600px;
+    font-size: 1.1em;
+    color: #222;
+    line-height: 1.5;
+}
+
+/*CODE DE MESCOMPETENCES */
+#mescompétences {
+    max-width: 1100px;
+    margin: 32px auto;
+    padding: 24px 10px;
+}
+
+#mescompétences h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 18px;
+}
+
+/* Grouper chaque p + ul comme un bloc horizontalement */
+#mescompétences .competencesgroupes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+#mescompétences .competencebloc {
+    background: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 18px 24px;
+    min-width: 200px;
+    max-width: 240px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#mescompétences .competencebloc p {
+    color: #0077b6;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 1.1em;
+}
+#mescompétences .competencebloc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#mescompétences .competencebloc li {
+    background: #e0f7fa;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    padding: 8px 0;
+    color: #222;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#mescompétences .competencebloc li:last-child {
+    margin-bottom: 0;
+}
